@@ -26,7 +26,7 @@ var convert_C2K = function(tempC) {
 /*
  * this function gets called when you click on the calculate button.
  */
-var calculate = function(e) {
+var calculate = function() {
 
   try {
     var kdissol   = Number(document.getElementById('kdissol').value);
